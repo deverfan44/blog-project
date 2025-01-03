@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-family: sans-serif;
+}
+.banner_section {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/nature.jpeg') no-repeat center center / cover;
+    position: relative;
+}
+.banner_content {
+    background-color: #f0f8ff34;
+    font-family: sans-serif;
+    width: 47%;
+    /* margin: auto; */
+    padding: 25px;
+    border: 1px solid #77ffd9;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner_content h3 {
+    font-size: 35px;
+    text-align: center;
+}
+.banner_content p {
+    text-align: center;
+    line-height: 22px;
+    margin-top: 12px;
+}
+.banner_btn {
+    margin-top: 17px;
+    text-align: center;
+}
+.banner_btn button {
+    outline: none;
+    border: 0;
+    padding: 8px 15px;
+    font-size: 19px;
+    border-radius: 7px;
+}
+.banner_btn *:nth-child(1){}
+.banner_btn *:nth-child(2){}
+
+.blog_title {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: sans-serif;
+}
+.blog_title h1{}
+.blog_content {
+    overflow: hidden;
+    padding: 60px 0px;
+    width: 85%;
+    margin: auto;
+}
+.blog_text {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    background-color: azure;
+    /* border: 1px solid black; */
+    margin-right: 5%;
+    padding: 16px;
+    box-shadow: 5px 5px 3px -5px black;
+    font-family: sans-serif;
+}
+.blog_content > *:nth-last-child(-n+1){
+    margin-right: 0 !important;
+}
+.blog_text h2 {
+    margin-bottom: 10px;
+}
+.blog_text p{
+    text-align: justify;
+}
